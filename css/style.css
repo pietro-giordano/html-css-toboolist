@@ -1,0 +1,39 @@
+/* Reset */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+/* Regole generali */
+body {
+      background-color: gray;
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+      height: 70px;
+      background-color: white;
+}
+
+#header-logo {
+      vertical-align: middle;
+}
+
+#header-title {
+      font-weight: 700;
+      font-size: 40px;
+      display: inline-block;
+      vertical-align: middle;
+}
+
+/* Container */
+.container {
+      width: 80%;
+      height: 600px;
+      margin: 40px auto;
+      background-color: white;
+      border-radius: 5px;
+}
