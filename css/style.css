@@ -31,29 +31,21 @@ header {
 }
 
 /* Container */
-
 main {
       width: 70%;
       margin: 0 auto;
-      margin-bottom: 3px;
 }
 
 .container {
       margin-bottom: 3px;
-}
-
-.todo-lists {
-      height: 600px;
-      background-color: white;
+      padding-left: 70px;
 }
 
 nav {
       background-color: white;
       height: 60px;
-}
-
-.buttons {
-      padding-left: 70px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
 }
 
 .blue-button {
@@ -90,3 +82,47 @@ nav {
       text-shadow: 0px 1px 0px #ffffff;
 }
 
+.todo-lists {
+      height: 500px;
+      background-color: white;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+}
+
+.section {
+      padding-top: 20px;
+}
+
+ul {
+      list-style-type: none;
+}
+
+li {
+      padding-top: 10px;
+}
+
+h3::before {
+      content: '\25BC';
+}
+
+.accepted::before {
+      content: '\2713';
+      color: green;
+      border: 1px solid green;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      margin-right: 10px;
+}
+
+.negated::before {
+      content: '\2717';
+      color: red;
+      border: 1px solid red;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      margin-right: 10px;
+}
