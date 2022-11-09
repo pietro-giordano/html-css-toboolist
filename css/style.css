@@ -93,98 +93,68 @@ h3::before {
       content: '\25BC';
 }
 
+.circle::before {
+      border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            margin-right: 10px;
+            display: inline-block;
+}
+
 .accepted::before {
       content: '\2713';
       color: green;
       border: 1px solid green;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      text-align: center;
-      margin-right: 10px;
-      display: inline-block;
 }
 
 .negated::before {
       content: '\2717';
       color: red;
       border: 1px solid red;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      text-align: center;
-      margin-right: 10px;
+}
+
+.box::after {
+      margin-left: 10px;
       display: inline-block;
+      text-align: center;
+      padding: 6px 10px;
+      border-radius: 10px;
+      font-size: 10px;
 }
 
 .editorial::after {
       content: 'Editorial';
       color: white;
       background-color: #019ad2;
-      margin-left: 10px;
-      display: inline-block;
-      text-align: center;
-      padding: 6px 10px;
-      border-radius: 10px;
-      font-size: 10px;
 }
 
 .goals::after {
       content: 'Q1 goals';
       color: white;
       background-color: violet;
-      margin-left: 10px;
-      display: inline-block;
-      text-align: center;
-      padding: 6px 10px;
-      border-radius: 10px;
-      font-size: 10px;
 }
 
 .recruiting::after {
       content: 'Recruiting';
       color: white;
       background-color: green;
-      margin-left: 10px;
-      display: inline-block;
-      text-align: center;
-      padding: 6px 10px;
-      border-radius: 10px;
-      font-size: 10px;
 }
 
 .mobile::after {
       content: 'Mobile';
       color: white;
       background-color: orange;
-      margin-left: 10px;
-      display: inline-block;
-      text-align: center;
-      padding: 6px 10px;
-      border-radius: 10px;
-      font-size: 10px;
 }
 
 .website::after {
       content: 'Website';
       color: white;
       background-color: rgb(111, 24, 111); 
-      margin-left: 10px;
-      display: inline-block;
-      text-align: center;
-      padding: 6px 10px;
-      border-radius: 10px;
-      font-size: 10px;
 }
 
 .sales::after {
       content: 'Sales';
       color: white;
       background-color: greenyellow;
-      margin-left: 10px;
-      display: inline-block;
-      text-align: center;
-      padding: 6px 10px;
-      border-radius: 10px;
-      font-size: 10px;
 }
